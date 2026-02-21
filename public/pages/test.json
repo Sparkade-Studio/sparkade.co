@@ -1,0 +1,33 @@
+{
+  "documentId": "home",
+  "version": "0.1.0",
+  "documentMeta": {
+    "title": "Home",
+    "icon": "",
+    "slug": "home-viewport",
+    "categoryTags": ["Home"],
+    "tags": ["Home"],
+    "stats": {
+      "blockCount": 4,
+      "readingTime": "2 min",
+      "lastUpdated": "2026-02-21T14:30:00Z"
+    },
+    "search": {
+      "semanticSummary": "A test render containing multiple markdown blocks for header, nav, and footer components.",
+      "weight": 1.0
+    }
+  },
+  "documentFeedback": [],
+  "documentContent": [
+    {
+      "type": "markdown",
+      "id": "block_test",
+      "props": {
+        "sourceLocation": "/markdown/home.md"
+      },
+      "actions": {
+        "download":"/markdown/home.md"
+      }
+    }
+  ]
+}

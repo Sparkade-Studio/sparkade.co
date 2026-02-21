@@ -1,0 +1,1 @@
+![Sparkade Logo](/header.png)

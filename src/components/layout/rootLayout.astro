@@ -1,0 +1,28 @@
+---
+import "../../styles/global.css";
+import { ClientRouter } from "astro:transitions";
+
+interface Props {
+  title?: string;
+  class?: string;
+}
+
+const { class: className, title : title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title || "sparkade"}</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <div class:list={["flex flex-col flex-1 min-w-0 h-screen w-screen overflow-y-auto overflow-x-hidden", className]}>
+      <slot />
+    </div>
+  </body>
+</html>
