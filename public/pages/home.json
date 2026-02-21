@@ -42,10 +42,10 @@
       "type": "markdown",
       "id": "block_test",
       "props": {
-        "sourceLocation": "/markdown/home.md"
+        "sourceLocation": "/markdown/home/section1.md"
       },
       "actions": {
-        "download":"/markdown/home.md"
+        "download":"/markdown/home/section1.md"
       }
     },
     {
