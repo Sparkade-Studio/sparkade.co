@@ -53,7 +53,7 @@ const ScopeViewport = ({ document }) => {
             return null;
           }
 
-          const hasActions = block.actions;
+          const hasDownloadActions = block.actions && block.actions.download;
 
           return (
             <Component 
@@ -61,7 +61,7 @@ const ScopeViewport = ({ document }) => {
               id={block.id} 
               {...block.props}
             >
-              {hasActions && (
+              {hasDownloadActions && (
                 <BlockActions>
                   <a 
                     href={block.actions.download}
