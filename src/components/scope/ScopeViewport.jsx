@@ -40,7 +40,7 @@ const ScopeViewport = ({ document }) => {
   const blocks = content?.documentContent || [];
 
   return (
-    <div className="card bg-base-100 p-4 md:p-4 w-full h-full overflow-y-auto overflow-x-hidden items-center max-w-4xl mx-auto">
+    <div className="card rounded-none sm:rounded-3xl bg-base-100 p-2 sm:p-4 md:p-4 w-full h-full overflow-y-auto overflow-x-hidden items-center md:max-w-4xl mx-auto">
       <ScopeContainer
         state={status}
         className="w-full overflow-y-visible p-2 gap-6 md:p-8 md:gap-12"

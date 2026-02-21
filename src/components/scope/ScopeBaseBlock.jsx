@@ -23,7 +23,7 @@ const BaseBlock = ({ children, className, state }) => {
         state={state||"failure"}
         className={containerClass}
       >
-        <div className="w-12 md:w-24 p-2 pr-4 md:pr-12 flex flex-col items-end gap-2  shrink-0 ">
+        <div className="w-6 sm:w-12 md:w-24 p-2 sm:pr-4 md:pr-12 flex flex-col items-end gap-2 shrink-0 ">
           {actions.length > 0 && (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -53,7 +53,7 @@ const BaseBlock = ({ children, className, state }) => {
 
         {/* Main Content */}
         <div className="flex flex-col flex-1 min-w-0 h-auto">{children}</div>
-        <div className="w-12 md:w-24 shrink-0"></div>
+        <div className="w-6 sm:w-12 md:w-24 shrink-0"></div>
       </ScopeContainer>
     </BlockActionsContext.Provider>
   );
