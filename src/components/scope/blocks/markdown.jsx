@@ -49,7 +49,7 @@ const MarkdownRenderer = ({ sourceLocation, children }) => {
   }, [sourceLocation, hasIntersected]);
 
   return (
-    <div ref={containerRef} className="my-4 mb-8">
+    <div ref={containerRef} className="">
       <BaseBlock className="min-h-8" state={status}>
         <div className="md-content">
           <Markdown remarkPlugins={[remarkGfm]}>{markdownContent}</Markdown>

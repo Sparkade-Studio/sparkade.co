@@ -15,7 +15,7 @@ const ImageBlock = ({ src, alt = "Image content", caption = "", children }) => {
 
   return (
     <BaseBlock
-      className="w-fit max-w-full h-auto min-h-16 shrink-0 overflow-visible mb-2"
+      className="w-fit max-w-full h-auto min-h-16 shrink-0 overflow-visible"
       state={status}
     >
       <img

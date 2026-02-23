@@ -3,7 +3,7 @@ import React from "react";
 const ScopeContainer = ({ className = "", state = "error", children }) => {
   if (state === "failure") return null;
 
-  const containerClass = `${className} flex flex-col overflow-hidden relative`;
+  const containerClass = `${className} flex flex-col`;
 
   const stateMap = {
     idle: children,

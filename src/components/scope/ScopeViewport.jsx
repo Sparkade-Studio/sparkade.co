@@ -3,6 +3,7 @@ import ScopeContainer from "./ScopeContainer.jsx";
 import BlockMarkdown from "./blocks/markdown.jsx";
 import BlockProfile from "./blocks/profile.jsx";
 import BlockBanner from "./blocks/banner.jsx";
+import BlockGap from "./blocks/gap.jsx"
 import { BlockActions } from "./ScopeBaseBlock.jsx";
 import { TbDownload } from "react-icons/tb";
 import {
@@ -18,6 +19,7 @@ const BLOCK_REGISTRY = {
   markdown: BlockMarkdown,
   profile : BlockProfile,
   banner : BlockBanner,
+  gap : BlockGap,
 };
 
 const ScopeViewport = ({ document }) => {
@@ -52,10 +54,10 @@ const ScopeViewport = ({ document }) => {
   const blocks = content?.documentContent || [];
 
   return (
-    <div className="card bg-base-100 p-8 md:rounded-2xl rounded-none sm:p-4 md:p-4 w-full h-full overflow-y-auto overflow-x-hidden items-center md:max-w-4xl lg:max-w-5xl mx-auto">
+    <div className="card bg-base-100 p-8 md:rounded-2xl rounded-none sm:p-4 md:p-4 w-full h-full overflow-y-auto overflow-x-hidden items-center md:max-w-3xl lg:max-w-4xl mx-auto">
       <ScopeContainer
         state={status}
-        className="w-full overflow-y-visible sm:p-2 md:p-8"
+        className="w-full overflow-y-visible sm:p-2 md:p-8 gap-4"
       >
         {status === "idle" && blocks.map((block, index) => {
           const Component = BLOCK_REGISTRY[block.type];

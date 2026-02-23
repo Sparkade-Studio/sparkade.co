@@ -45,7 +45,6 @@
         "sourceLocation": "/media/markdown/home/intro.md"
       },
       "actions": {
-        "download":"/markdown/home/intro.md"
       }
     },
     {
@@ -54,8 +53,13 @@
       "props": {
         "sourceLocation": ["/people/JustinWhite.json","/people/AustinLiu.json"]
       },
-      "actions": {
-        
+      "actions": {}
+    },
+    {
+      "type": "gap",
+      "id": "block_gap",
+      "props": {
+        "gapsize":"4"
       }
     },
     {
@@ -64,9 +68,7 @@
       "props": {
         "sourceLocation": "/media/markdown/home/vision.md"
       },
-      "actions": {
-        "download":"/markdown/home/vision.md"
-      }
+      "actions": {}
     },
     {
       "type": "markdown",
@@ -74,9 +76,7 @@
       "props": {
         "sourceLocation": "/media/markdown/home/pillars.md"
       },
-      "actions": {
-        "download":"/markdown/home/pillars.md"
-      }
+      "actions": {}
     },
     {
       "type": "markdown",
@@ -84,17 +84,13 @@
       "props": {
         "sourceLocation": "/media/markdown/home/colorama.md"
       },
-      "actions": {
-        "download":"/markdown/home/colorama.md"
-      }
+      "actions": {}
     },
     {
       "visible": false,
       "type": "markdown",
       "id": "block_home_lfg",
-      "props": {
-        "sourceLocation": "/media/markdown/home/lfg.md"
-      },
+      "props": {},
       "actions": {
         "download":"/markdown/home/lfg.md"
       }

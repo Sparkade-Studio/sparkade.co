@@ -118,9 +118,8 @@ const ProfileCard = ({ sourceLocation }) => {
               <DropdownMenuItem 
                 key={i} 
                 onClick={() => window.open(s.url, "_blank", "noopener,noreferrer")}
-                className="cursor-pointer gap-2 py-2.5"
-              >
-                <span className="font-semibold text-sm">{s.platform}</span>
+                className="inline-flex items-center gap-2 text-sm opacity-80 hover:opacity-100 transition-opacity cursor-pointer"
+              >{s.platform}
               </DropdownMenuItem>
             ))}
           </BlockActions>
@@ -136,7 +135,7 @@ const ProfileRenderer = ({ sourceLocation, children }) => {
     : sourceLocation ? [sourceLocation] : [];
 
   return (
-    <BaseBlock className="w-full h-auto min-h-fit bg-transparent border-none mb-4" state="idle">
+    <BaseBlock className="w-full h-auto min-h-fit bg-transparent border-none" state="idle">
       <div className="flex flex-wrap gap-6 w-full justify-center md:justify-start">
         {locations.map((loc, index) => (
           <ProfileCard key={`${loc}-${index}`} sourceLocation={loc} />
