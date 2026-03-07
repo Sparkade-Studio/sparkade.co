@@ -89,7 +89,9 @@
     {
       "type": "markdown",
       "id": "block_home_lfg",
-      "props": {},
+      "props": {
+        "sourceLocation":"/markdown/home/lfg.md"
+      },
       "actions": {
         "download":"/markdown/home/lfg.md"
       }
