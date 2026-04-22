@@ -1,0 +1,2 @@
+> ### **Notice: Sparkade has been disbanded.**
+> As of **April 20th, 2026**, Sparkade is no longer in operation. This website is maintained as a static archive of our projects and design philosophy. Thank you to everyone who joined us on this journey.

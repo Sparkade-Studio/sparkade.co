@@ -5,8 +5,12 @@
     "title": "Home",
     "icon": "",
     "slug": "home-viewport",
-    "categoryTags": ["Home"],
-    "tags": ["Home"],
+    "categoryTags": [
+      "Home"
+    ],
+    "tags": [
+      "Home"
+    ],
     "stats": {
       "blockCount": 4,
       "readingTime": "2 min",
@@ -31,50 +35,17 @@
     },
     {
       "type": "markdown",
-      "id": "block_topnav",
+      "id": "block_discont",
       "props": {
-        "sourceLocation": "/media/markdown/generic/topnav.md"
+        "sourceLocation": "/media/markdown/home/discont.md"
       },
-      "actions": {
-      }
+      "actions": {}
     },
     {
       "type": "markdown",
       "id": "block_home_intro",
       "props": {
         "sourceLocation": "/media/markdown/home/intro.md"
-      },
-      "actions": {
-      }
-    },
-    {
-      "type": "profile",
-      "id": "block_profile",
-      "props": {
-        "sourceLocation": ["/people/JustinWhite.json","/people/AustinLiu.json"]
-      },
-      "actions": {}
-    },
-    {
-      "type": "gap",
-      "id": "block_gap",
-      "props": {
-        "gapsize":"4"
-      }
-    },
-    {
-      "type": "markdown",
-      "id": "block_home_vision",
-      "props": {
-        "sourceLocation": "/media/markdown/home/vision.md"
-      },
-      "actions": {}
-    },
-    {
-      "type": "markdown",
-      "id": "block_home_pillars",
-      "props": {
-        "sourceLocation": "/media/markdown/home/pillars.md"
       },
       "actions": {}
     },
@@ -91,10 +62,10 @@
       "type": "markdown",
       "id": "block_home_lfg",
       "props": {
-        "sourceLocation":"/media/markdown/home/lfg.md"
+        "sourceLocation": "/media/markdown/home/lfg.md"
       },
       "actions": {
-        "download":"/media/markdown/home/lfg.md"
+        "download": "/media/markdown/home/lfg.md"
       }
     },
     {
